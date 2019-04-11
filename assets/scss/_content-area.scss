@@ -1,0 +1,317 @@
+#content-area {
+  overflow: auto;
+width: 100%;
+min-height: 100vh;
+
+}
+
+
+#filter {
+  background: $grey;
+  width: 30%;
+  max-width: 300px;
+  display: inline-block;
+  float: left;
+
+ .inside {
+    padding: 20px;
+    max-width: 300px;
+
+  }
+    h4 {
+    font-size: 0.9rem;
+    margin-bottom: 25px;
+    text-transform: Uppercase;
+    font-weight: 700px;
+  }
+  select {
+    background: transparent;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500px;
+    color: #1b1b1b;
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+  }
+
+  .filters {
+    .title {
+      font-size: 0.9rem;
+      display: block;
+      margin-bottom: 1rem;
+      color: $darkgrey;
+    }
+    input[type="text"] {
+      border-radius: 5px;
+      font-size:1rem;
+      padding: 0.4rem;
+      width: 45%;
+      display: inline-block;
+      margin-right: 2.5%;
+      margin-bottom: 1rem;
+    }
+
+    &.extras {
+      label {
+        display: block;
+        with: 100%;
+        padding: 10px 0;
+        input[type="checkbox"] {
+          float:right;
+        }
+      }
+    }
+  }
+}
+
+
+#listings {
+width: 70%;
+float: left;
+display: inline-block;
+padding: 15px;
+background: $offwhite;
+
+
+
+.search-area {
+  input[type="text"] {
+    width: 70%;
+    font-size: 2rem;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid $darkgrey;
+    margin-bottom: 20px;
+    font-weight: 100;
+    color: $lightgrey;
+  }
+}
+
+.sortby-area {
+  margin-bottom: 20px;
+
+  .results {
+    color: $darkgrey;
+    font-size: 0.8rem;
+    display: inline-block;
+  }
+  .sort-options {
+    float:right;
+    select {
+      font-size: .9rem;
+      font-weight: 300;
+      border: 1px solid $lightgrey;
+      background: transparent;
+      padding: 20px;
+      display: inline-block;
+      margin-right: 15px;
+      vertical-align:top;
+    }
+    .view {
+       display: inline-block;
+    .fas {
+     font-size: 1.5rem;
+     margin-right: 15px;
+     }
+    }
+   }
+  }
+
+
+  .listings-results {
+margin-bottom: 80px;
+    .listing {
+      background: #fff;
+      border-radius: 5px;
+    -webkit-box-shadow: 0px 24px 18px -19px rgba(201,201,201,1);
+-moz-box-shadow: 0px 24px 18px -19px rgba(201,201,201,1);
+box-shadow: 0px 24px 18px -19px rgba(201,201,201,1);
+    }
+    .listing-img { 
+      color: white;
+      padding: 15px;
+      position: relative;
+        background: 
+        url(http://hhomedesign.com/wp-content/uploads/2015/09/Screen-Shot-2015-09-17-at-7.51.11-PM-720x415.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 200px;
+  -webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+transition: all .6s ease-in-out;
+
+&:hover{
+  .details {
+    opacity: 1;
+  }
+.address{
+  opacity: 0;
+}
+}
+
+.address {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  position: absolute;
+  bottom: 20px;
+  opacity: 1;
+    transition: all .3s ease-in-out;
+    text-shadow: 0px 1px 4px rgba(91, 91, 91, 1);
+}
+
+
+.details{
+     opacity: 0;
+  padding: 30px;
+ position: absolute;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ right: 0;
+ -webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#edebe8+0,8f0222+44,6d0019+98 */
+background: rgb(237,235,232); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(237,235,232,.8) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 98%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(237,235,232,.8) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,.8) 98%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(237,235,232,.8) 0%,rgba(143,2,34,.8) 44%,rgba(109,0,25,.8) 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edebe8', endColorstr='#6d0019',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+.user-img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 2px solid white;
+display: inline-block;
+    background: url(http://hhomedesign.com/wp-content/uploads/2015/09/Screen-Shot-2015-09-17-at-7.51.11-PM-720x415.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.user-details {
+  display:inline-block;
+  vertical-align: top;
+
+  .user-name {
+    font-weight: 300;
+    font-size: 0.9rem;
+    display: block;
+ color: rgba (255,255,255, .1);
+ margin-top: 3px;
+ margin-bottom: 5px;
+  }
+  .post-date {
+    font-size: 0.9rem;
+    display: block;
+    color: rgba (255,255,255, .7)
+  }
+}
+
+.listing-details {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  .fa  {
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  .fas  {
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  span {
+    font-weight: 300;
+  display: inline-block;
+  vertical-align: top;
+  postion: relative;
+  top: 3px;
+  }
+  .floor-space {
+    margin-bottom: 10px;
+       }
+
+      }
+     }
+    }
+.bottom-info {
+  padding: 20px 15px;
+  .price {
+font-size: 1rem;
+display: block;
+margin-bottom: 10px;
+color: $darkgrey;
+  }
+  .location {
+font-size: 1.2rem;
+display: block;
+color: $lightgrey;
+  }
+}
+  }
+}
+
+.view-btn {
+background: $red;
+padding: 8px;
+font-size: .9rem;
+border-radius: 5px;
+text-align: center;
+max-width: 150px;
+transition: background .3s ease-in-out;
+&:hover {
+  background: $black;
+}
+cursor: pointer;
+}
+
+
+
+#pagination {
+  text-align: center;
+  .pages {
+   // margin: 0 auto;
+    display: inline-block;
+    padding:20px;
+    background: white;
+        -webkit-box-shadow: 0px 24px 18px -19px rgba(201,201,201,1);
+-moz-box-shadow: 0px 24px 18px -19px rgba(201,201,201,1);
+box-shadow: 0px 24px 18px -19px rgba(201,201,201,1);
+li {
+  display: inline-block;
+  padding: 20px 30px;
+  &:hover,
+  &.active {
+    color: white; 
+    font-weight: 700;
+    background: $red;
+    cursor: pointer;
+  }
+  
+}
+  }
+}
+
+
+.col-md-3 {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 15px;
+}
+.col-md-9 { 
+  width: 75%;
+    display: inline-block;
+}
